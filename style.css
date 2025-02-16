@@ -1,0 +1,122 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(155deg, #f9f9f9, #007Bff); 
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 460px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease-in-out;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    color: #003366;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #003366 ;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+p {
+    color: #003366 
+}
+
+input[type="text"] {
+    padding: 12px;
+    width: 80%;
+    border-radius: 30px;
+    border: 2px solid #007Bff;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+    border-color: #f9e400;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #007Bff;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.clima-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.clima-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.error-message {
+    color: #f94144;
+    font-size: 1.2em;
+}
+
+#loading {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #f9e400;
+    font-weight: bold;
+}
+
+
+
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+#toggle-search {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #007Bff;
+}
+
+.hidden {
+    display: none;
+}
